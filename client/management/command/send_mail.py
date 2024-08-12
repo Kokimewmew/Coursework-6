@@ -6,7 +6,7 @@ from django_apscheduler.jobstores import DjangoJobStore
 from django_apscheduler.models import DjangoJobExecution
 
 from config import settings
-from mailing.services.send_mail import send_all_mails
+from client.services.send_mail import send_all_mails
 
 
 @util.close_old_connections
